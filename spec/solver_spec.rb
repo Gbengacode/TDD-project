@@ -29,10 +29,10 @@ describe Solver do
     it 'should return buzz when the argument is modulus of 5' do
       expect(solver.fizzbuzz(5)).to eq('buzz')
     end
-    it 'should return buzz when the argument is modulus of 15' do
+    it 'should return fizzbuzz when the argument is modulus of 15' do
       expect(solver.fizzbuzz(15)).to eq('fizzbuzz')
     end
-    it 'should return buzz when the argument is modulus of 15' do
+    it 'should return 11 when the argument is modulus of 15' do
       expect(solver.fizzbuzz(11)).to eq('11')
     end
   end
